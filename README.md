@@ -15,7 +15,7 @@ We can run multiple instances of this microservice with:
 > @FeignClient(value = "<span style='color:red'>cars-cloud-service</span>")  
   public interface CarsServiceFeignClient {  
 >  
-  &nbsp;&nbsp; @RequestMapping(method = RequestMethod.GET, value = "/api/v1/cars")  
+> &nbsp;&nbsp; @RequestMapping(method = RequestMethod.GET, value = "/api/v1/cars")  
   &nbsp;&nbsp; public List<Car> getAllCars();  
 >  &nbsp;&nbsp; ...  
 }  
