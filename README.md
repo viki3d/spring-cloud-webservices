@@ -56,10 +56,10 @@ We don't need to write RestTemplate code, when using FeignClient:
   @RequestMapping("/consume/cars")  
   public class CarsRestController implements CarsApi {  
 >  
-  &nbsp;&nbsp; @Autowired  
+> &nbsp;&nbsp; @Autowired  
   &nbsp;&nbsp; private CarsServiceFeignClient <span style='color:red'>carsServiceFeignClient</span>;  
 >  
-  &nbsp;&nbsp; @Override  
+> &nbsp;&nbsp; @Override  
   &nbsp;&nbsp; @GetMapping(path = "", produces = "application/json")  
   &nbsp;&nbsp; public List<Car> list() {  
   &nbsp;&nbsp;&nbsp;&nbsp;   return <span style='color:red'>carsServiceFeignClient.getAllCars()</span><span>;</span>  
