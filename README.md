@@ -1,6 +1,6 @@
 # Java, Spring Cloud, FeignClient, Microservices, Service Registration and Discovery, Load Balancing
 
-![spring-cloud-webservices](spring-cloud-webservices.png?id=1)
+![spring-cloud-webservices-1](spring-cloud-webservices-1.png?id=1)
 
 ## spring-cloud-webservices-registry-server
 This is a Netflix Eureka Registry for our microservices.
